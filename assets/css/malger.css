@@ -187,11 +187,10 @@ button {
   animation-name: top_btm_anim;
   animation-duration: 1s;
 }
-.banner_btn{
+.banner_btn {
   border: none;
-  background-color: #db1d40;
   font-size: 16px;
-  color: white;
+  color: #db1d40;
   padding: 15px 30px;
   position: relative;  
 }
@@ -216,6 +215,7 @@ button {
   content: "";
   width: 0%;
   background: #000;
+  color: #db1d40;
   height: 100%;
   left: 0;
   position: absolute;
@@ -367,10 +367,10 @@ button {
   font-size: 25px;
 }
 .banner_btn{
-  color: rgb(255, 255, 255);
+  color: #db1d40;
   font-size: 16px;
   border: none;
-  background: #dd1d42;
+  background: #ffffff;
   padding-left: 25px;
   padding-right: 25px;
   outline: none;
@@ -527,7 +527,7 @@ button {
 
 
 .ar-ar-wrap h2{
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   padding-bottom: 30px;
 }
@@ -617,14 +617,9 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #dd1d42; 
+  background-color: #25D366; 
   border: none; 
   align-items: center;
-}
-
-.whatsapp-button:hover {
-  background-color: #25D366;
-  /* WhatsApp green */
 }
 
 @media (max-width: 768px) {
