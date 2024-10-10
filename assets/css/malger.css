@@ -613,6 +613,27 @@ button {
   margin-right: 5px;
 }
 
+.whatsapp-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #dd1d42; 
+  border: none; 
+  align-items: center;
+}
+
+.whatsapp-button:hover {
+  background-color: #25D366;
+  /* WhatsApp green */
+}
+
+@media (max-width: 768px) {
+  .whatsapp-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 
 /* ///////////////////////// Contact section \\\\\\\\\\\\\\\\\\\\\\\  */
 
