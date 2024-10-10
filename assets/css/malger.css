@@ -629,6 +629,29 @@ button {
   }
 }
 
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+.dropdown-item:hover {
+  background-color: #db1d40;
+}
+
 
 /* ///////////////////////// Contact section \\\\\\\\\\\\\\\\\\\\\\\  */
 
