@@ -696,23 +696,6 @@ button {
   margin-bottom: 10px;
   color: #e01642;
 }
-.scrollToTop {
-  width: 54px;
-  height: 54px;
-  padding: 10px;
-  text-align: center;
-  background: whiteSmoke;
-  font-weight: bold;
-  color: #444;
-  text-decoration: none;
-  position: fixed;
-  bottom: 155px;
-  right: 40px;
-  font-size: 0px;
-  display: none;
-  background: url(../images/arrow_up.png) no-repeat;
-  background-position: center;
-}
 
 .whatsapp-icon {
   width: 54px;
@@ -1201,12 +1184,6 @@ and (max-width: 1366px)
 
   .get_started{
     margin-top: -1px;
-  }
-
-  .scrollToTop{
-    right: -20px;
-    width: 90px;
-    height: 90px;
   }
 
   .whatsapp-icon{

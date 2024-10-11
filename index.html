@@ -324,7 +324,6 @@
       </section>
     </main>
 
-    <a href="#" class="scrollToTop" style="display: none;">Scroll To Top</a>
     <a href="https://wa.me/919526938791?text=Hey%20Malger%20Entertainments,%20I'm%20interested%20in%20discussing%20a%20potential%20project%20with%20you.%20Could%20we%20schedule%20a%20call%3F"
       class="whatsapp-icon">WhatsApp</a>
 
@@ -332,35 +331,6 @@
     <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
-
-    <script type="text/javascript">
-      var $ = jQuery.noConflict();
-      jQuery(document).ready(function ($) {
-        scrollToTop.init();
-      });
-
-      var scrollToTop =
-      {
-
-        init: function () {
-
-          $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-              $('.scrollToTop').fadeIn();
-            } else {
-              $('.scrollToTop').fadeOut();
-            }
-          });
-
-          // Click event to scroll to top
-          $('.scrollToTop').click(function () {
-            $('html, body').animate({ scrollTop: 0 }, 800);
-            return false;
-          });
-        }
-      };
-    </script>
   </body>
 
 </html>
