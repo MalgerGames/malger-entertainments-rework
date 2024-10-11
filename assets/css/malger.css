@@ -756,8 +756,9 @@ textarea {
 }
 
 #name, #email, #mobile {
-  width: 50%;
+  width: 100%;
 }
+
 .honeypot-field {
   display: none;
 }
@@ -1279,6 +1280,10 @@ and (max-width: 1366px)
   }
   .flex{
     justify-content: center;
+  }
+  
+  #name, #email, #mobile {
+    width: 75%;
   }
 }
 

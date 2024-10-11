@@ -379,16 +379,19 @@
                   <input id="name" name="name" placeholder="Your name" />
                 </fieldset>
 
-                <fieldset class="pure-group">
-                  <label for="email"><strong><em>Your</em> Email Address:</strong></label>
-                  <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
-                </fieldset>
+                <div class="d-sm-flex">
+                  <fieldset class="pure-group col-sm-5" style="margin-right: 50px;">
+                    <label for="email"><strong><em>Your</em> Email Address:</strong></label>
+                    <input id="email" class="text-truncate" name="email" type="email" value="" required
+                      placeholder="your.name@email.com" />
+                  </fieldset>
 
-                <fieldset class="pure-group">
-                  <label for="mobile"><strong><em>Your</em> Mobile Number:</strong></label>
-                  <input id="mobile" name="mobile" value="" required placeholder="Mobile number with country code" />
-                </fieldset>
-
+                  <fieldset class="pure-group col-sm-6">
+                    <label for="mobile"><strong><em>Your</em> Mobile Number:</strong></label>
+                    <input id="mobile" class="text-truncate" name="mobile" value="" required
+                      placeholder="Mobile number with country code" />
+                  </fieldset>
+                </div>
                 <fieldset class="pure-group">
                   <label for="message"><strong>Message:</strong></label>
                   <textarea id="message" name="message" rows="10"
