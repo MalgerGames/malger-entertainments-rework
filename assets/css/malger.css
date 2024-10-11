@@ -627,6 +627,10 @@ button {
     width: 100%;
     justify-content: center;
   }
+
+  .portfolio-images {
+    flex-direction: column;
+  }
 }
 
 .dropdown-menu {
@@ -714,6 +718,39 @@ button {
   background-position: center;
 }
 
+
+/* Portfolio Section */
+.portfolio-wrap {
+  padding: 20px;
+  color: #000;
+}
+
+.portfolio-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio-images img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 10px;
+}
+
+.portfolio-wrap p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.portfolio-cards a {
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio-cards:hover{
+  transform: scale(1.1);
+}
 
 /* ///////////////////////////////  Responsive \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
