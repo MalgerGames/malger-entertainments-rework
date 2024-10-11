@@ -747,6 +747,7 @@ textarea {
 
 .pure-button {
   background-color: #db1d40 !important;
+  color: #fff !important;
   margin: 0 auto;
 }
 
@@ -754,7 +755,7 @@ textarea {
   font-size: 125%;
 }
 
-#name, #email {
+#name, #email, #mobile {
   width: 50%;
 }
 .honeypot-field {
