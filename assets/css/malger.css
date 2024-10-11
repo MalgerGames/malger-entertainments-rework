@@ -698,8 +698,8 @@ button {
 }
 
 .whatsapp-icon {
-  width: 54px;
-  height: 54px;
+  width: 70px;
+  height: 70px;
   padding: 10px;
   text-align: center;
   background: whiteSmoke;
@@ -710,7 +710,7 @@ button {
   bottom: 75px;
   right: 40px;
   font-size: 0px;
-  background:  no-repeat center/80% url(../images/whatsapp.png);
+  background:  no-repeat center/80% url(../images/whatsapp.gif);
   background-position: center;
 }
 
