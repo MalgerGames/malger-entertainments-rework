@@ -388,8 +388,8 @@
 
                   <fieldset class="pure-group col-sm-6">
                     <label for="mobile"><strong><em>Your</em> Mobile Number:</strong></label>
-                    <input id="mobile" class="text-truncate" name="mobile" value="" required
-                      placeholder="Mobile number with country code" />
+                    <input id="mobile" class="text-truncate" name="mobile" value="" pattern="^\+[1-9]\d{1,3}-?\d{7,10}$"
+                      maxlength="15" minlength="10" required placeholder="Mobile number with country code" />
                   </fieldset>
                 </div>
                 <fieldset class="pure-group">
