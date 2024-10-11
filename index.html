@@ -14,6 +14,11 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/malger.css" rel="stylesheet" type="text/css" />
 
+    <!-- Contact Us form styling start -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Contact Us form styling end -->
+
 
   </head>
 
@@ -327,7 +332,47 @@
             </div>
           </aside>
         </section>
+
+        <h4 style="text-align: center; margin-bottom: 20px;">We would <em>love</em> to hear from you! </h4>
+
+        <div class="centered-form">
+          <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbzaQWlh1a5BcJnHWMtPn1_pHJUEHdicCEDkIYBhZaYRAQkQ5OF9-HlRGtqie9ts2yRTPA/exec">
+
+            <div class="form-elements">
+              <fieldset class="pure-group">
+                <label for="name"><strong>Name:</strong></label>
+                <input id="name" name="name" placeholder="Your name" />
+              </fieldset>
+
+              <fieldset class="pure-group">
+                <label for="email"><strong><em>Your</em> Email Address:</strong></label>
+                <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+              </fieldset>
+
+              <fieldset class="pure-group">
+                <label for="message"><strong>Message:</strong></label>
+                <textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
+              </fieldset>
+
+              <fieldset class="pure-group honeypot-field">
+                <input id="honeypot" type="text" name="honeypot" value="" />
+              </fieldset>
+
+              <button class="button-success pure-button button-xlarge">
+                <i class="fa fa-paper-plane"></i>&nbsp;Send
+              </button>
+            </div>
+
+            <div class="thankyou_message" style="display:none;">
+              <p><em>Thanks</em> for contacting us!
+                We will get back to you soon!</p>
+            </div>
+
+          </form>
+        </div>
     </section>
+
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.649441235192!2d76.29694321104493!3d9.963096373626614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087dde155289d3%3A0x36471fe95eb4ad7f!2sMalger%20Entertainments!5e0!3m2!1sen!2sin!4v1728570109490!5m2!1sen!2sin"
       width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
@@ -364,6 +409,9 @@
     <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="assets/js/form-submission-handler.js"></script>
+    <!-- END -->
   </body>
 
 </html>

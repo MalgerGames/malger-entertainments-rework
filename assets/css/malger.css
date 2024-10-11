@@ -684,7 +684,7 @@ button {
 }
 .contact_wrap{
   text-align: center;
-  padding: 100px 0px;
+  padding: 100px 0px 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -736,6 +736,51 @@ button {
   background:  no-repeat center/80% url(../images/whatsapp.gif);
   background-position: center;
 }
+
+/* Contact Us Form Start */
+textarea {
+  width: 100%;
+}
+
+.button-success {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button {
+  background-color: #db1d40 !important;
+  margin: 0 auto;
+}
+
+.button-xlarge {
+  font-size: 125%;
+}
+
+#name, #email {
+  width: 50%;
+}
+.honeypot-field {
+  display: none;
+}
+
+.centered-form {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 30px;
+}
+
+.pure-group {
+  padding: 10px 0;
+}
+
+.pure-group label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.thankyou_message {
+  font-size: 20px;
+}
+/* Contact Us Form End */
 
 
 /* Portfolio Section */
