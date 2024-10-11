@@ -487,6 +487,12 @@ button {
 .social-apps a{
   padding-left: 15px;
 }
+
+.social-apps img {
+  width: 17px; 
+  height: 17px;
+}
+
 .copyright a{
   transition: 0.5s ease-in-out;
 }
