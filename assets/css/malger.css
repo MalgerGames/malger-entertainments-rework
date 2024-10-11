@@ -559,6 +559,19 @@ button {
   padding-bottom: 50px;
 }
 
+/* Privacy Policy */
+
+.privacy_policy_wrap{
+  background-color: #fff;
+  padding: 0px 0px 70px;
+  margin: 0px 0px 50px;
+  color: #000;  
+}
+
+.privacy_policy_wrap li {
+  list-style: inside;
+}
+
 /* ///////////////////////// Games \\\\\\\\\\\\\\\\\\\\\\\\\\\\  */
 
 .games_wrap{
