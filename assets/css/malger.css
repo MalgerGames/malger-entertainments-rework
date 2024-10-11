@@ -714,6 +714,23 @@ button {
   background-position: center;
 }
 
+.whatsapp-icon {
+  width: 54px;
+  height: 54px;
+  padding: 10px;
+  text-align: center;
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  bottom: 75px;
+  right: 40px;
+  font-size: 0px;
+  background:  no-repeat center/80% url(../images/whatsapp.png);
+  background-position: center;
+}
+
 
 /* ///////////////////////////////  Responsive \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
@@ -1190,6 +1207,10 @@ and (max-width: 1366px)
     right: -20px;
     width: 90px;
     height: 90px;
+  }
+
+  .whatsapp-icon{
+    right: 0px;
   }
 
   .game_box h1 {
