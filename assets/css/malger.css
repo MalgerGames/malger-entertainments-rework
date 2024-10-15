@@ -185,7 +185,7 @@ button {
 }
 .dropdown-menu{
   animation-name: top_btm_anim;
-  animation-duration: 150ms;
+  animation-duration: 50ms;
 }
 .banner_btn {
   border: none;
@@ -657,6 +657,7 @@ button {
   background-color: #f8f9fa;
   min-width: 160px;
   z-index: 1;
+  margin-top: 0px;
 }
 
 .navbar-nav .dropdown:hover .dropdown-menu {
